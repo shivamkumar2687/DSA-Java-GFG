@@ -4,6 +4,7 @@ public class calculator {       //program for clculator using switch case
     public static void main(String[] args) {
         System.out.println("Enter 1st and 2nd number respectively : ");
         Scanner sc=new Scanner (System.in);
+        // Input from user
         float a= sc.nextFloat();
         float b= sc.nextFloat();
         System.out.println("Enter + ,-,*,/ for add,subtract,multiply,division ");
