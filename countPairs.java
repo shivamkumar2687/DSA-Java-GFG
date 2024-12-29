@@ -28,9 +28,9 @@ public static int countPairs(int arr[], int target) {
         HashMap<Integer,Integer>mp=new HashMap<>();
         for(int i=0;i<arr.length;i++){
          if(mp.get(target-arr[i])!=null){
-             count+=mp.get(target-arr[i]);
+             count+=mp.get(target-arr[i]);  //count no. value and add 
             }
-             mp.put(arr[i],mp.getOrDefault(arr[i],0)+1);
+             mp.put(arr[i],mp.getOrDefault(arr[i],0)+1);    //default =0, and for already prsent +1 with initial
         }
         return count;
     }
