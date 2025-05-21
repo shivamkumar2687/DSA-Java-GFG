@@ -1,3 +1,4 @@
+package potd;
 class countPairsLess{
     public static void main(String[] args) {
         

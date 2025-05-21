@@ -1,3 +1,4 @@
+package potd;
 // Q. Search in a row-wise sorted matrix
 
 // Given a row-wise sorted 2D matrix mat[][] of size n x m and an integer x, find whether element x is present in the matrix.

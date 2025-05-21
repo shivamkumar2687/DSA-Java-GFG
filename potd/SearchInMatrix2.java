@@ -1,3 +1,4 @@
+package potd;
 //Q.Search in a sorted Matrix
 
 // Given a strictly sorted 2D matrix mat[][] of size n x m and a number x. Find whether the number x is present in the matrix or not.

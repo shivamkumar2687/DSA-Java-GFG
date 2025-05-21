@@ -1,3 +1,4 @@
+package potd;
 import java.util.Scanner;
 
 public class calculator {       //program for clculator using switch case
