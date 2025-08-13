@@ -2,6 +2,7 @@ package MiscellaneousQuestionPractice;
 
 public class ThirdLargestEle {
      
+    //Function for Third Largest
     public static int thirdLargestElement(int arr[]){
        
         int n = arr.length;
@@ -24,7 +25,7 @@ public class ThirdLargestEle {
         int thirdLargest = Integer.MIN_VALUE;
             
          for(int i =0;i<n;i++){
-            if(arr[i]==firstLargest || arr[i] == secondLargest )continue; // skip the 1st largest
+            if(arr[i]==firstLargest || arr[i] == secondLargest )continue; // skip the 1st and 2nd largest
            else if(thirdLargest<arr[i]){
                 thirdLargest = arr[i];
             }
